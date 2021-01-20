@@ -8,7 +8,7 @@ echo "Sublist3r"
 	sublist3r -d $domain >> sublist3r_$domain 
 echo "done!"
 echo "********************************************" 
-echo "The Harvestor" 
+echo "The Harvester" 
 	theHarvester -d $domain -l 500 -b all -f harvester_$domain 
 echo "done!"
 echo "********************************************"
